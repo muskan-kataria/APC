@@ -174,6 +174,7 @@ void Delay()
 }
 int main()
 {
+	printf("snake game \n");
 static char board[42][50];
 int k,j,d=0,score=0;
 	for(k=0;k<42;k++)
